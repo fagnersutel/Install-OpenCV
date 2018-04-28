@@ -17,6 +17,6 @@ sudo dnf  -y install opencv-python
 sudo dnf install  -y python-pip 
 sudo dnf install  -y python3-pip
 #instalamos jupyter para Python 2 e 3
-sudo pip3 install  -y jupyter 
-sudo python2 -m  -y pip install ipykernel
-sudo python2 -m  -y ipykernel install
+sudo pip3 install jupyter 
+sudo python2 -m  pip install ipykernel
+sudo python2 -m  ipykernel install
