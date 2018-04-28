@@ -13,10 +13,15 @@ sudo dnf  -y install python-devel
 sudo dnf  -y install python3-devel 
 sudo dnf  -y install opencv-devel 
 sudo dnf  -y install opencv-python
+
 #Instalamos o PIP
 sudo dnf install  -y python-pip 
 sudo dnf install  -y python3-pip
 #instalamos jupyter para Python 2 e 3
+sudo pip install matplotlib
+sudo pip3 install matplotlib
+sudo pip install pandas
+sudo pip3 install pandas
 sudo pip3 install jupyter 
 sudo python2 -m  pip install ipykernel
 sudo python2 -m  ipykernel install
