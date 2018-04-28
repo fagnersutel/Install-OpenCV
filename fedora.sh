@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-#Instalamos OoenCV
+#Atualizamos o Fedora
+sudo yum update
+sudo yum upgrade
+#Instalamos OpenCV
 sudo yum install numpy opencv*
 
 #Instalamos as dependencias necessárias
