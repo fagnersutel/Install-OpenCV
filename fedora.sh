@@ -20,3 +20,4 @@ sudo dnf install  -y python3-pip
 sudo pip3 install jupyter 
 sudo python2 -m  pip install ipykernel
 sudo python2 -m  ipykernel install
+jupyter notebook
