@@ -7,12 +7,12 @@ sudo yum install -y numpy opencv*
 
 #Instalamos as dependencias necessárias
 sudo dnf  groupinstall 'Development Tools' -y 
-sudo dnf  install gcc-c++  -y 
-sudo dnf  install rpm-build  -y 
-sudo dnf  install python-devel -y 
-sudo dnf  install python3-devel  -y 
-sudo dnf  install opencv-devel  -y 
-sudo dnf  install opencv-python -y 
+sudo dnf  install  -y gcc-c++  
+sudo dnf  install -y rpm-build
+sudo dnf  install -y python-devel 
+sudo dnf  install -y python3-devel
+sudo dnf  install -y opencv-devel
+sudo dnf  install -y opencv-python
 
 #Instalamos o PIP
 sudo dnf install  -y python-pip 
